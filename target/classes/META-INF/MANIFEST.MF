@@ -1,0 +1,59 @@
+Manifest-Version: 1.0
+Built-By: deepu
+Class-Path: dependency-jars/selenium-java-3.11.0.jar dependency-jars/s
+ elenium-api-3.11.0.jar dependency-jars/selenium-edge-driver-3.11.0.ja
+ r dependency-jars/selenium-ie-driver-3.11.0.jar dependency-jars/selen
+ ium-opera-driver-3.11.0.jar dependency-jars/selenium-remote-driver-3.
+ 11.0.jar dependency-jars/selenium-safari-driver-3.11.0.jar dependency
+ -jars/selenium-support-3.11.0.jar dependency-jars/byte-buddy-1.7.9.ja
+ r dependency-jars/commons-exec-1.3.jar dependency-jars/commons-codec-
+ 1.10.jar dependency-jars/commons-logging-1.2.jar dependency-jars/gson
+ -2.8.2.jar dependency-jars/guava-23.6-jre.jar dependency-jars/jsr305-
+ 1.3.9.jar dependency-jars/checker-compat-qual-2.0.0.jar dependency-ja
+ rs/error_prone_annotations-2.1.3.jar dependency-jars/j2objc-annotatio
+ ns-1.1.jar dependency-jars/animal-sniffer-annotations-1.14.jar depend
+ ency-jars/httpclient-4.5.3.jar dependency-jars/httpcore-4.4.6.jar dep
+ endency-jars/okhttp-3.9.1.jar dependency-jars/okio-1.13.0.jar depende
+ ncy-jars/testng-6.8.jar dependency-jars/bsh-2.0b4.jar dependency-jars
+ /jcommander-1.27.jar dependency-jars/snakeyaml-1.6.jar dependency-jar
+ s/selenium-chrome-driver-3.11.0.jar dependency-jars/extentreports-2.4
+ 1.2.jar dependency-jars/jsoup-1.8.3.jar dependency-jars/sqlite-jdbc-3
+ .8.11.1.jar dependency-jars/freemarker-2.3.23.jar dependency-jars/mon
+ godb-driver-3.0.4.jar dependency-jars/bson-3.0.4.jar dependency-jars/
+ mongodb-driver-core-3.0.4.jar dependency-jars/extentreports-3.1.5.jar
+  dependency-jars/httpmime-4.5.2.jar dependency-jars/selenium-firefox-
+ driver-3.11.0.jar dependency-jars/maven-surefire-plugin-2.21.0.jar de
+ pendency-jars/maven-surefire-common-2.21.0.jar dependency-jars/maven-
+ plugin-api-2.2.1.jar dependency-jars/maven-plugin-annotations-3.5.jar
+  dependency-jars/surefire-api-2.21.0.jar dependency-jars/surefire-log
+ ger-api-2.21.0.jar dependency-jars/surefire-booter-2.21.0.jar depende
+ ncy-jars/maven-artifact-2.2.1.jar dependency-jars/maven-plugin-descri
+ ptor-2.2.1.jar dependency-jars/plexus-container-default-1.0-alpha-9-s
+ table-1.jar dependency-jars/maven-project-2.2.1.jar dependency-jars/m
+ aven-settings-2.2.1.jar dependency-jars/maven-profile-2.2.1.jar depen
+ dency-jars/maven-artifact-manager-2.2.1.jar dependency-jars/backport-
+ util-concurrent-3.1.jar dependency-jars/maven-plugin-registry-2.2.1.j
+ ar dependency-jars/plexus-interpolation-1.11.jar dependency-jars/mave
+ n-model-2.2.1.jar dependency-jars/maven-core-2.2.1.jar dependency-jar
+ s/maven-plugin-parameter-documenter-2.2.1.jar dependency-jars/wagon-h
+ ttp-1.0-beta-6.jar dependency-jars/wagon-http-shared-1.0-beta-6.jar d
+ ependency-jars/xercesMinimal-1.9.6.2.jar dependency-jars/nekohtml-1.9
+ .6.2.jar dependency-jars/commons-httpclient-3.1.jar dependency-jars/w
+ agon-webdav-jackrabbit-1.0-beta-6.jar dependency-jars/jackrabbit-webd
+ av-1.5.0.jar dependency-jars/jackrabbit-jcr-commons-1.5.0.jar depende
+ ncy-jars/slf4j-nop-1.5.3.jar dependency-jars/slf4j-jdk14-1.5.6.jar de
+ pendency-jars/slf4j-api-1.5.6.jar dependency-jars/jcl-over-slf4j-1.5.
+ 6.jar dependency-jars/maven-reporting-api-2.2.1.jar dependency-jars/d
+ oxia-logging-api-1.1.jar dependency-jars/wagon-provider-api-1.0-beta-
+ 6.jar dependency-jars/maven-repository-metadata-2.2.1.jar dependency-
+ jars/maven-error-diagnostics-2.2.1.jar dependency-jars/maven-monitor-
+ 2.2.1.jar dependency-jars/classworlds-1.1.jar dependency-jars/plexus-
+ sec-dispatcher-1.3.jar dependency-jars/plexus-cipher-1.4.jar dependen
+ cy-jars/maven-toolchain-2.2.1.jar dependency-jars/plexus-java-0.9.3.j
+ ar dependency-jars/asm-6.0_BETA.jar dependency-jars/qdox-2.0-M7.jar d
+ ependency-jars/maven-invoker-2.1.1.jar dependency-jars/plexus-utils-3
+ .0.8.jar dependency-jars/plexus-component-annotations-1.5.5.jar
+Build-Jdk: 1.8.0_77
+Created-By: Maven Integration for Eclipse
+Main-Class: com.branch.tests.SuiteRunner
+

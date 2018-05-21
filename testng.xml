@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="TestSuite">
+	<test name="Team Page Tests">
+		<parameter name="browser" value="chrome" />
+		<classes>
+			<class name="com.branch.tests.TeamPageTests">
+				<methods> 
+				<include name="verifyEmployeeCountAcrossTabs" />
+				<include name="verifyEmployeeCategorizationInDepartment" />
+				<include name="compareEmpDetailsOtherTabsWithAll" />
+				<include name="findEmployeesNotCategorizedUnderAnyDepartment" />
+				<include name="compareEmpPhotoOtherTabsWithAll" /> 
+				</methods>
+			</class>
+
+		</classes>
+	</test>
+
+
+</suite>

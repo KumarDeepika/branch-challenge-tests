@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" total="1" passed="1">
+  <reporter-output>
+  </reporter-output>
+  <suite name="TestSuite" duration-ms="48971" started-at="2018-05-21T21:16:48Z" finished-at="2018-05-21T21:17:37Z">
+    <groups>
+    </groups>
+    <test name="Team Page Tests" duration-ms="48971" started-at="2018-05-21T21:16:48Z" finished-at="2018-05-21T21:17:37Z">
+      <class name="com.branch.tests.TeamPageTests">
+        <test-method status="PASS" signature="createReportInstance()[pri:0, instance:com.branch.tests.TeamPageTests@6cc4c815]" name="createReportInstance" is-config="true" duration-ms="171" started-at="2018-05-21T14:16:48Z" finished-at="2018-05-21T14:16:48Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- createReportInstance -->
+        <test-method status="PASS" signature="createHTMLReport(org.testng.ITestContext)[pri:0, instance:com.branch.tests.TeamPageTests@6cc4c815]" name="createHTMLReport" is-config="true" duration-ms="7" started-at="2018-05-21T14:16:48Z" finished-at="2018-05-21T14:16:48Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[org.testng.TestRunner@45a37759]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- createHTMLReport -->
+        <test-method status="PASS" signature="getTestName(java.lang.reflect.Method)[pri:0, instance:com.branch.tests.TeamPageTests@6cc4c815]" name="getTestName" is-config="true" duration-ms="2" started-at="2018-05-21T14:16:48Z" finished-at="2018-05-21T14:16:49Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void com.branch.tests.TeamPageTests.compareEmpDetailsOtherTabsWithAll()]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getTestName -->
+        <test-method status="PASS" signature="setUp(java.lang.String)[pri:0, instance:com.branch.tests.TeamPageTests@6cc4c815]" name="setUp" is-config="true" duration-ms="3008" started-at="2018-05-21T14:16:49Z" finished-at="2018-05-21T14:16:52Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="compareEmpDetailsOtherTabsWithAll()[pri:0, instance:com.branch.tests.TeamPageTests@6cc4c815]" name="compareEmpDetailsOtherTabsWithAll" duration-ms="45041" started-at="2018-05-21T14:16:52Z" description="Verify that employee names and departments in other tabs match with all tab" finished-at="2018-05-21T14:17:37Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- compareEmpDetailsOtherTabsWithAll -->
+        <test-method status="PASS" signature="getResults(org.testng.ITestResult)[pri:0, instance:com.branch.tests.TeamPageTests@6cc4c815]" name="getResults" is-config="true" duration-ms="707" started-at="2018-05-21T14:17:37Z" finished-at="2018-05-21T14:17:37Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=compareEmpDetailsOtherTabsWithAll status=SUCCESS method=TeamPageTests.compareEmpDetailsOtherTabsWithAll()[pri:0, instance:com.branch.tests.TeamPageTests@6cc4c815] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getResults -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.branch.tests.TeamPageTests@6cc4c815]" name="tearDown" is-config="true" duration-ms="187" started-at="2018-05-21T14:17:37Z" finished-at="2018-05-21T14:17:37Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method status="PASS" signature="endReport()[pri:0, instance:com.branch.tests.TeamPageTests@6cc4c815]" name="endReport" is-config="true" duration-ms="220" started-at="2018-05-21T14:17:42Z" finished-at="2018-05-21T14:17:43Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- endReport -->
+        <test-method status="PASS" signature="showHTMLReport()[pri:0, instance:com.branch.tests.TeamPageTests@6cc4c815]" name="showHTMLReport" is-config="true" duration-ms="2043" started-at="2018-05-21T14:17:43Z" finished-at="2018-05-21T14:17:45Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- showHTMLReport -->
+      </class> <!-- com.branch.tests.TeamPageTests -->
+    </test> <!-- Team Page Tests -->
+  </suite> <!-- TestSuite -->
+</testng-results>
