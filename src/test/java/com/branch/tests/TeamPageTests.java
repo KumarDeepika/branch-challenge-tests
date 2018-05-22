@@ -22,7 +22,7 @@ public class TeamPageTests extends BaseWebDriver {
 	 * 
 	 **/
 
-	@Test(priority = 1, description = "Verify that number of employees match between All tab and sum of other tabs", enabled = true)
+	@Test(description = "Verify that number of employees match between All tab and sum of other tabs", enabled = true)
 	public void verifyEmployeeCountAcrossTabs() {
 
 		HomePage homePage = openGoogle(driver);
@@ -40,7 +40,7 @@ public class TeamPageTests extends BaseWebDriver {
 	 * 
 	 **/
 
-	@Test(priority = 3, description = "Verify that employee names and departments in other tabs match with all tab", enabled = true)
+	@Test(description = "Verify that employee names and departments in other tabs match with all tab", enabled = true)
 
 	public void compareEmpDetailsOtherTabsWithAll() {
 
@@ -63,7 +63,7 @@ public class TeamPageTests extends BaseWebDriver {
 	 * 
 	 **/
 
-	@Test(priority = 2, description = "Verify employees have the correct departments listed in their profile", enabled = true)
+	@Test(description = "Verify employees have the correct departments listed in their profile", enabled = true)
 	public void verifyEmployeeCategorizationInDepartment() {
 
 		HomePage homePage = openGoogle(driver);
@@ -81,7 +81,7 @@ public class TeamPageTests extends BaseWebDriver {
 	 * 
 	 **/
 
-	@Test(priority = 4, description = "Find if there are employees that do not belong to ANY department tab", enabled = true)
+	@Test(description = "Find if there are employees that do not belong to ANY department tab", enabled = true)
 	public void findEmployeesNotCategorizedUnderAnyDepartment() {
 
 		HomePage homePage = openGoogle(driver);
@@ -106,7 +106,7 @@ public class TeamPageTests extends BaseWebDriver {
 	 * 
 	 **/
 
-	@Test(priority = 5, description = "Verify images of employees match between all and other tabs", enabled = true)
+	@Test(description = "Verify images of employees match between all and other tabs", enabled = true)
 
 	public void compareEmpPhotoOtherTabsWithAll() {
 
